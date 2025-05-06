@@ -79,12 +79,9 @@ nav a:hover{
 
 main{
     background-image: linear-gradient(300deg, #423922, #635941, #857a60, #a69a7f, #c8bb9f);
-    min-width: 500px;
-    max-width: 1450px;
-    min-height: 500px;
-    max-height: 1530px;
+    
     width: 1450px;
-    height: 1530px;
+    height: 2000px;
     margin: auto;
 
     border: 5px;
