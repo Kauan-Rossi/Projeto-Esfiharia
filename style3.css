@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    
+    background-image: linear-gradient(to top, #930031, #a80541, #bd0a50, #d20f60, #e7146f);
+}
+main{
+    background-image: radial-gradient(rgb(255, 203, 106), rgb(253, 214, 142), rgb(255, 230, 185));
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    
+    border: 20px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+}
+main h1{
+    font-family: Bebas neue;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px black;
+    color: red;
+}
+main h3{
+    font-family: "fonte2";
+    font-size: 40px;
+    color: rgb(29, 191, 29);
+    text-shadow: 2px 2px 3px black;
+}
+main p{
+    font-family: "fonte2";
+    font-size: 30px;
+}
+aside{
+    margin-top: 65px;
+    text-align: center;
+}
+aside a{
+    position:relative;
+    
+    font-family: "fonte3";
+    font-size: 30px;
+    background-image: radial-gradient( orange, red);
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+    text-shadow: 3px 2px 2px black;
+    box-shadow: 6px 3px 12px black;
+}
+
+
+
+@font-face {
+    font-family: "fonte1";
+    src: url(fontes/Rhomdon.otf) format("opentype"); 
+}
+@font-face {
+    font-family: "fonte2";
+    src: url(fontes/Howdy\ Koala.otf) format("opentype");
+}
+@font-face {
+    font-family: "fonte3";
+    src: url(fontes/KGPerfectPenmanship.ttf) format("truetype");
+}
+@font-face {
+    font-family: "fonte4";
+    src: url(fontes/KeeponTruckin.ttf) format("truetype");
+}
+@font-face {
+    font-family: "fonte5";
+    src: url(fontes/Moneywise.ttf) format("truetype");
+}
+@font-face {
+    font-family: "fonte6";
+    src: url(fontes/SNOW\ BLUE.ttf) format("truetype");
+}

@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top, #930031, #a80541, #bd0a50, #d20f60, #e7146f);
+    border: 5px;
+    
+    
+}
+
+header{
+    background-color: gold;
+    height: 150px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+
+    text-align: center;
+    border: 10px;
+    border-bottom: 0;
+    border-style:solid;
+    border-color: rgb(255, 123, 0);
+    border-radius: 10px 10px 0px 0px;
+}
+header h1{
+    font-family: "fonte1";
+    font-size: 50px;
+    color: rgb(255, 89, 0);
+    padding-top: 20px;
+    text-shadow: 5px 0px 2px black;
+    letter-spacing: 5px;
+}
+header h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 0px 3px black;
+}
+
+nav{
+    background-color: gold;
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center; 
+    
+
+    border: 10px;
+    border-top: 0;
+    border-style:solid;
+    border-color: rgb(255, 123, 0);
+    border-radius: 0px 0px 10px 10px;
+
+
+}
+nav a{
+    font-family:"fonte2", impact;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px 50px;
+    
+
+    background-color: rgb(255, 179, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+nav a:hover{
+    background-color: rgb(206, 149, 18);
+    color: red;
+    transition-duration: 0.2s;
+}
+
+
+main{
+    background-image: linear-gradient(300deg, #423922, #635941, #857a60, #a69a7f, #c8bb9f);
+    min-width: 500px;
+    max-width: 1450px;
+    min-height: 500px;
+    max-height: 1530px;
+    width: 1450px;
+    height: 1530px;
+    margin: auto;
+
+    border: 5px;
+    border-style: solid;
+    border-radius: 20px;
+
+    text-align: center;
+    
+}
+
+main h2{
+    font-family: "fonte1";
+    font-weight: 100;
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(216, 43, 43);
+
+    text-shadow: 2px 3px 2px black;
+}
+
+.imagens-promocao{
+    display: flex;
+    position: relative;
+    
+}
+
+main img{
+    box-shadow: 8px 1px 15px;
+    padding: 20px;
+    
+    margin: auto;
+    margin: 100px auto 200px auto;   
+    
+}
+
+main p{
+    font-family: "fonte3";
+    line-height: 30px;
+    font-weight: bold;
+}
+main h4{
+    font-family: "fonte1";
+    margin: auto;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 1000px;
+    border: 5px;
+    border-style:dashed;
+    border-radius: 10px;
+}
+main h4::before{
+    content: "\1F4CD";
+}
+main h4::after{
+    content: "\1F4CD";
+}
+main mark{
+    background-color: rgb(255, 77, 77);
+}
+aside{
+    margin-top: 100px;
+    padding: 35px;
+    text-align: center;
+}
+aside a{
+    position:relative;
+    left: 30px;
+    font-family: "fonte3";
+    font-size: 30px;
+    background-image: radial-gradient( orange, red);
+    padding: 50px;
+    margin: 10px 200px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+    text-shadow: 3px 2px 2px black;
+    box-shadow: 6px 3px 12px black;
+}
+
+footer{
+    background-image: linear-gradient(to bottom, gold, rgb(197, 167, 0), rgb(139, 119, 0));
+    margin-top: 40px;
+    height: 200px;
+    border: 0;
+    border-top: 10px;
+    border-style: outset;
+    border-color: rgb(255, 123, 0);
+    text-align: center;
+    padding-top: 100px;
+}
+
+footer h3{
+    
+    font-family: "fonte4", impact;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.redes-sociais-imagens{
+    width: 25px;
+    height: 25px;
+    
+}
+#redes-sociais{
+    
+    position: relative;
+    left: 30px;
+    width: 33%;
+    float: left;
+    gap: 20px;
+}
+#contato{
+    float: left;
+    position: relative;
+    width: 33%;
+}
+#responsaveis{
+    float: right;
+    position: relative;
+    right: 30px;
+    width: 33%;    
+}
+
+.espacamento{
+    position: relative;
+    bottom: 8px;
+    padding: 8px;
+    font-family: "fonte3";
+    font-weight: bold;
+    text-decoration: underline;
+}
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.bordas{
+    border: 8px;
+    border-style:groove;
+    border-color: chocolate;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: "fonte1";
+    src: url(fontes/Rhomdon.otf) format("opentype"); 
+}
+@font-face {
+    font-family: "fonte2";
+    src: url(fontes/Howdy\ Koala.otf) format("opentype");
+}
+@font-face {
+    font-family: "fonte3";
+    src: url(fontes/KGPerfectPenmanship.ttf) format("truetype");
+}
+@font-face {
+    font-family: "fonte4";
+    src: url(fontes/KeeponTruckin.ttf) format("truetype");
+}
+
+
+
+
+
+
+
+
+
+
